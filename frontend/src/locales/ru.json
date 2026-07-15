@@ -140,7 +140,7 @@
     "deliveryTime": "Время доставки",
     "morning": "Утро 9:00 - 12:00",
     "afternoon": "День 12:00 - 17:00",
-    "evening": "Вечер 17:00 - 21:00",
+    "evening": "Вечер 17:00 - 18:00",
     "paymentMethod": "Способ оплаты",
     "cashOnDelivery": "Наличными при доставке",
     "cardNumber": "Номер карты",

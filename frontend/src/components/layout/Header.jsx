@@ -48,7 +48,7 @@ export default function Header() {
         <div className="container-x flex h-9 items-center justify-between text-xs">
           <span>{t('cart.freeDeliveryNote')}</span>
           <a href="tel:+998712001001" className="font-medium hover:text-accent">
-            +998 71 200 10 01
+            +998 95 036 00 00
           </a>
         </div>
       </div>

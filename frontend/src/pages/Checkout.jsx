@@ -17,7 +17,7 @@ import {
   isCvv,
 } from '../utils/helpers';
 
-const CITIES = ['Toshkent', 'Samarqand', 'Buxoro', 'Namangan', 'Andijon', "Farg'ona", 'Nukus', 'Termiz'];
+const CITIES = ['Toshkent shahar', 'Toshkent viloyati', 'Samarqand shahar', 'Samarqand viloyati','Buxoro shahar', 'Buxoro viloyati ', 'Namangan shahar', 'Namangan viloyati ', 'Andijon shahar', 'Andijon viloyati ', "Farg'ona shahar",  "Farg‘ona viloyati",'Nukus shahar', 'Surxondaryo viloyati ','Termiz shahar'];
 
 export default function Checkout() {
   const { t, i18n } = useTranslation();

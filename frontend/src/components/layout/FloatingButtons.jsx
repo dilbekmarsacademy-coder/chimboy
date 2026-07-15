@@ -43,8 +43,8 @@ export default function FloatingButtons() {
         href="https://wa.me/998712001001"
         target="_blank"
         rel="noreferrer"
-        className="flex h-12 w-12 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition hover:scale-105"
-        aria-label="WhatsApp"
+        className="flex h-12 w-12 items-center justify-center rounded-full bg-[#fcba2c] text-white shadow-lg transition hover:scale-105"
+        aria-label="Instagram"
       >
         <MessageCircle size={22} />
       </a>

@@ -13,7 +13,6 @@ const socials = [
 ];
 
 export default function Contact() {
-  const { t } = useTranslation();
   const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' });
 
   const submit = (e) => {

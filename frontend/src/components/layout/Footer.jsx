@@ -1,13 +1,10 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Send, Instagram, Facebook, Youtube, MapPin, Phone, Mail } from 'lucide-react';
+import { Send, Instagram,  MapPin, Phone, Mail } from 'lucide-react';
 import Logo from '../ui/Logo';
 
 const socials = [
-  { Icon: Send, href: 'https://t.me/chimboy_official', label: 'Telegram' },
   { Icon: Instagram, href: 'https://instagram.com/chimboy', label: 'Instagram' },
-  { Icon: Facebook, href: 'https://facebook.com/chimboy', label: 'Facebook' },
-  { Icon: Youtube, href: 'https://youtube.com/@chimboy', label: 'YouTube' },
 ];
 
 const payments = ['Payme', 'Click', 'Uzcard', 'Humo'];
@@ -62,11 +59,11 @@ export default function Footer() {
           <ul className="space-y-3 text-sm">
             <li className="flex items-start gap-2">
               <MapPin size={18} className="mt-0.5 shrink-0 text-primary" />
-              Toshkent, Bunyodkor ko'chasi 12
+              Toshkent, olmazor tumani Sag'bon-Oqtepa 2 tor 1-berk kuchasi 1 uy
             </li>
             <li className="flex items-center gap-2">
               <Phone size={18} className="shrink-0 text-primary" />
-              <a href="tel:+998712001001" className="hover:text-primary">+998 71 200 10 01</a>
+              <a href="tel:+998712001001" className="hover:text-primary">+998 94 633 65 97</a>
             </li>
             <li className="flex items-center gap-2">
               <Mail size={18} className="shrink-0 text-primary" />
